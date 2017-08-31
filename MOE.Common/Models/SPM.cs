@@ -13,7 +13,7 @@ namespace MOE.Common.Models
     public partial class SPM : IdentityDbContext<MOE.Common.Business.SiteSecurity.SPMUser>
     {
          public SPM()
-            : base("name=SPM")
+            : base("name=SPM2")
         {
             Database.SetInitializer<SPM>(new CreateDatabaseIfNotExists<SPM>());
         }
